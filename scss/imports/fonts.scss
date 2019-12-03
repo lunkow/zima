@@ -1,0 +1,47 @@
+/*
+300 is light (if your font supports it)
+400 is regular
+500 is medium
+600 is semibold
+700 is bold
+800 is extra bold, ultra bold
+900 is black, heavy
+You can't use the numbers in between. font-weight works from 100 to 900 in increments of 100.
+Normal weight is 400
+*/
+@font-face {
+    font-family: "Muller";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/MullerRegular.eot");
+}
+
+@font-face {
+    font-family: "Muller";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/MullerMedium.otf");
+}
+
+@font-face {
+    font-family: "Muller";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/MullerBold.otf");
+}
+
+@font-face {
+    font-family: "Muller";
+    font-weight: 800;
+    font-style: normal;
+    src: url("../fonts/MullerExtraBold.otf");
+}
+
+@font-face {
+    font-family: "Circe";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Circe-Regular.woff"),
+        url("../fonts/Circe-Regular.ttf"),
+        url("../fonts/Circe-Regular.eot");
+}

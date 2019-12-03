@@ -1,0 +1,82 @@
+#marriagePopup{display: none; text-align: center;}
+            #marriagePopup .form__title{
+                display: block;
+                font-family: 'Muller', serif;
+                font-weight: 600;
+                font-size: 24px;
+                margin-top: 20px;
+                margin-bottom: 0;
+            }
+            #marriagePopup .form__subtitle{
+                display: block;
+                margin-top: 15px;
+                font-family: 'Muller', serif;
+                font-weight: normal;
+                font-size: 16px;
+            }
+            #marriagePopup .form__name-label{
+                display: block;
+                margin-top: 50px;
+
+                font-family: 'Muller', serif;
+                font-size: 14px;
+
+                text-align: left;
+                color: #00CA9D;
+            }
+
+            
+            #marriagePopup .form__name-input,
+            #marriagePopup .form__phone-input{
+                display: block;
+                width: 100%;
+                margin-top: 8px;
+                padding-bottom: 8px;
+                border: none;
+                box-sizing: border-box;
+                border-bottom: 2px solid #D5D5D5;
+                font-family: 'Muller', serif;
+                font-size: 18px;
+                color: #000;
+                transition: border-color 0.3s;
+                /* ,color 0.3s; */ 
+            }
+
+            #marriagePopup .form__name-input:focus,
+            #marriagePopup .form__phone-input:focus
+            {
+                outline: none;
+                border-color: #00CA9D;
+                color: #000000;
+            }
+
+            #marriagePopup .form__name-input::-moz-placeholder          { color: #000000; } /* Firefox 19+ */
+            #marriagePopup .form__name-input::-webkit-input-placeholder { color: #000000; }
+            #marriagePopup .form__name-input:-moz-placeholder           { color: #000000; } /* Firefox 18- */
+            #marriagePopup .form__name-input:-ms-input-placeholder      { color: #000000; } 
+
+            #marriagePopup .form__phone-input::-moz-placeholder          { color: #000000; } /* Firefox 19+ */
+            #marriagePopup .form__phone-input::-webkit-input-placeholder { color: #000000; }
+            #marriagePopup .form__phone-input:-moz-placeholder           { color: #000000; } /* Firefox 18- */
+            #marriagePopup .form__phone-input:-ms-input-placeholder      { color: #000000; } 
+            
+
+            #marriagePopup .form__phone-input{width: 100%;margin-top: 40px;}
+
+
+            #marriagePopup .form__submit{
+                display: block;
+                width: 220px;
+                margin-top: 50px;
+                margin: 50px auto 0;
+                background-color: #00CA9D;
+                padding: 15px 30px;
+                border-radius: 50px;
+                font-family: 'Muller', serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: #fff;
+                cursor: pointer;
+            }
+            #marriagePopup .form__submit:focus{outline: none;}
+
